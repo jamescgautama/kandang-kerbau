@@ -59,6 +59,32 @@ header {
     margin-left: 0; /* Ensure no left margin for the logo */
     padding-left: 0; /* Remove any padding that could add space on the left */
 }
+.profile-button {
+    display: flex;
+    align-items: centre;
+    gap: 8px;
+}
+
+.profile-button a {
+    display: flex;
+    align-items: centre;
+    text-decoration: none;
+    color: white;
+    background-color: #4c3228;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-button a:hover {
+    background-color: #4c3228;
+}
+
+#profile-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
 
 
 @media (max-width: 768px) {
@@ -76,6 +102,16 @@ header {
     }
  
 }
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none; 
+    }
+
+    .profile-button {
+        margin-left: auto; 
+    }
+}
+
 
 
 .grid-container {
