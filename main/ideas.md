@@ -7,7 +7,7 @@ Badan
 
 Project brief:
 
-Kandang Kerbau
+Kandang Kerbau is an e-commerce platform that sells premium products sourced from local vendors.
 
 
 
